@@ -57,6 +57,6 @@ function bookSeat (quantity){
             return "purchase successful:" +seatLeft;
       }
 }
-// let totalSeat = bookSeat(39);
+let totalSeat = bookSeat(39);
 console.log(bookSeat(39));
 // console.log(bookSeat(2))
