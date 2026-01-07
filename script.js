@@ -53,9 +53,10 @@ function bookSeat (quantity){
 
             return "not enough seat";
       }else{
-            return "purchase seat";
-            seatLeft = seatLeft - quantity
+            seatLeft = seatLeft - quantity;
+            return "purchase successful:" +seatLeft;
       }
 }
-let totalSeat = bookSeat(39);
-console.log(totalSeat) 
+// let totalSeat = bookSeat(39);
+console.log(bookSeat(39));
+console.log(bookSeat(2))
