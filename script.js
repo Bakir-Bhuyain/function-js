@@ -59,4 +59,4 @@ function bookSeat (quantity){
 }
 // let totalSeat = bookSeat(39);
 console.log(bookSeat(39));
-console.log(bookSeat(2))
+// console.log(bookSeat(2))
